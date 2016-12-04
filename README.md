@@ -1,2 +1,2 @@
-# ds-lightning-slides
-Folien für die Datenspuren
+# WikiLibrary-Barcamp-slides
+Folien fürs WikiLibrary-Barcamp 2016 in der SLUB
