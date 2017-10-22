@@ -6,6 +6,8 @@
 \usepackage[absolute,overlay]{textpos}
 \usepackage{csquotes}
 \MakeAutoQuote{„}{”}
+\usepackage{lmodern}
+\usepackage{hyperref}
 
 \hypersetup{
   colorlinks=true,
@@ -18,7 +20,8 @@
 \setbeamertemplate{navigation symbols}{}
 
 \title{Hochschulgruppe für Freie~Software~und~Freies~Wissen}
-\subtitle{Datenspuren 2016}
+\subtitle{Datenspuren 2017}
+\author{https://fsfw-dresden.de}
 
 \addtobeamertemplate{frametitle}{}{%
   \begin{textblock*}{130mm}(.963\textwidth,8.4mm)
@@ -57,11 +60,12 @@
 
   \item Bisherige Projekte
     \begin{itemize}
-    \item Linux-Install-Party, Linux-Presentation-Day {\tiny auch heute}
+    \item Linux-Install-Party, Linux-Presentation-Day
     \item Verschlüsselungsgewinnspiel
     \item Monatliche Sprechstunde zu \LaTeX{} u.a.
     \item Formulierung eines Programmpapiers
-    \item „Uni-Stick”:~80 $\times$ 8\,GB mit freier Software
+    \item „Uni-Stick”:~80 $\times$ 8\,GB mit freier Software {\tiny zweite Runde diese Woche!}
+    \item Git-Workshop bei der OUTPUT
     \end{itemize}
   \end{itemize}
 \end{frame}
@@ -99,12 +103,15 @@
   \onslide<+->
 
   \begin{itemize}
-  \item \emph{Überzeugung 1}: freie und quelloffene Software ist (oft) besser\\
-    (technische + nicht technische Argumente)\\
+  \item Freie und quelloffene Software ist eine nachhaltige Investition in einer digitalen Gesellschaft
+    %~ (technische + nicht technische Argumente)\\
     \bigskip\onslide<+->
-  \item \emph{Überzeugung 2}: öffentlich finanzierte wissenschaftliche Inhalte
-    (AutorInnen, GutachterInnen) sollten nicht von öffentlich finanzierten
-    Bibliotheken für horrende Summen von Zeitschriften-Verlagen gekauft werden
+  \item Freie Lizenzen schützen vor Abhängigkeit
+    \bigskip\onslide<+->
+  \item Offener Quellcode erhöht die Nachvollziehbarkeit und fördert die technische Bildung
+    \bigskip\onslide<+->
+  \item Öffentlich finanzierte wissenschaftliche Inhalte sollten nicht
+    von Bibliotheken für horrende Summen von Zeitschriften-Verlagen gekauft werden
     müssen
   \end{itemize}
 \end{frame}
@@ -118,9 +125,7 @@
     \item Blog-Beiträge
     \item Kurse (\LaTeX / Python / Git / Inkscape / \dots)
     \item Ansible-Abend
-    \item „Hetzner-Stipendium”
     \item OpenSource-Wettbewerb/Preis
-    \item \dots
     \end{itemize}
 
     \bigskip
@@ -136,6 +141,23 @@
 \end{frame}
 
 \begin{frame}[label=ct4]
+  \frametitle{Public Money, Public Code}
+
+  \begin{textblock*}{40mm}[0.,0.](85mm,25mm)
+    \visible<1->{
+      \includegraphics[width=40mm]{img-src/PMPC_sticker_v2_55x75}
+    }
+  \end{textblock*}
+
+  \begin{itemize}
+    \item Aktuelle Kampagne der FSF Europe
+    \item \textit{Warum wird durch Steuergelder \\finanzierte Software nicht als \\Freie Software veröffentlicht?}
+    \item Website: \url{https://publiccode.eu/de/}%
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}[label=ct5]
   \frametitle{Weitere Informationen}
 
   \onslide<+->
